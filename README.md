@@ -8,7 +8,7 @@ This project showcases a Flappy Bird game developed by me, Mosia Marate, using t
 
 Your goal is to control the bird, helping it navigate through pipes while avoiding collisions. Press the spacebar to make the bird flap upward, but time your movements carefully to avoid falling or hitting obstacles. If the bird collides with a pipe or the ground, the game ends.
 
-![screen record](gameplay.gif)
+gameplay.gif
 
 ## How to Play
 
