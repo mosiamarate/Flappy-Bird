@@ -1,0 +1,20 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore Pygame and other runtime files
+*.log
+*.gif
+*.png
+*.jpg
+
+# Ignore IDE configuration files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
