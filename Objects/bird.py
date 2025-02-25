@@ -33,7 +33,7 @@ class Bird(pygame.sprite.Sprite):
         self.rect.y += self.flap
 
         if self.rect.x < 50:
-            self.rect.x += 4
+            self.rect.x += 3
 
     def handle_event(self, event):
         """Handle the events."""
@@ -41,6 +41,12 @@ class Bird(pygame.sprite.Sprite):
             self.flap = 0
             self.flap -= 6
             assets.play_sound("wing")
+    
+    def increase_bird_speed(self, score):
+        """Increase the bird's speed based on the score."""
+        if score % 10 == 0:
+            configs.GRAVITY += 0.5
+
 
     def check_collision(self, sprites):
         """Check the collision between the bird and the sprite."""

@@ -107,6 +107,7 @@ while running:
             score.value += 1
             assets.play_sound("point")
 
+    # score.value += 1
     # score.value = max(score.value, 0)
     """Render the score."""
     pygame.display.set_caption(f"Flappy Bird - Score: {score}")
