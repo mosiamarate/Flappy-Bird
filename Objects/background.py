@@ -15,7 +15,7 @@ class Background(pygame.sprite.Sprite):
 
     def update(self):
         """Update the background."""
-        self.rect.x -= 2
+        self.rect.x -= 1
 
         if self.rect.right <= 0:
             self.rect.x = configs.WIDTH

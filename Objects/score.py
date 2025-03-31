@@ -39,7 +39,7 @@ class Score(pygame.sprite.Sprite):
             self.image.blit(img, (x, 0))
             x += img.get_width()
 
-        
+            
     def update(self):
         """Update the score."""
         self.__create()
