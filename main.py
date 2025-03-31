@@ -86,9 +86,6 @@ while running:
     screen.fill(0)
     sprites.draw(screen)
 
-    # Play background music.
-    
-
     """Update the game."""
     if game_started and not game_over:
         sprites.update()
