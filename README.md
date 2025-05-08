@@ -17,7 +17,7 @@ Your goal is to control the bird, helping it navigate through pipes while avoidi
 3. Open your terminal and navigate to the project directory.
 4. Start the game with the command: `python3 main.py`.
 5. Use the spacebar to control the bird's upward movement.
-6. Press ESC to restart the game after a collision.
+6. Press "R" to restart the game after a collision.
 
 ## Why This Project?
 
